@@ -1,7 +1,7 @@
-# Личный проект «Седона»
+# Личный проект «{{projectTitle}}»
 
-* Студент: [Марьяна Академова](https://up.htmlacademy.ru/htmlcss/38/user/1985335).
-* Наставник: [Алексей Симоненко](https://htmlacademy.ru/profile/simonenko).
+* Студент: [{{userName}}]({{userProfile}}).
+* Наставник: `Неизвестно`.
 
 ---
 
@@ -16,9 +16,9 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
 
-#### 2. Создайте форк
+#### 2. Создайте копию
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/1985335-sedona-38) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий]({{homepage}}) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037949-67a635d6-7bae-11e7-9f2f-1a48fde231b9.jpg">
 
@@ -26,13 +26,9 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037953-6a8a7384-7bae-11e7-83ac-59603b1d696c.jpg">
 
-#### 3. Клонируйте репозиторий на свой компьютер
+#### 3. Скачайте репозиторий на свой компьютер
 
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку «Clone or download», а затем «Open in Desktop», чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037955-6c20c16c-7bae-11e7-9e1a-c52010042976.jpg">
-
-Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
+Нажмите на зелёную кнопку «Code». Далее в выпавшем списке выберите пункт «Download ZIP». Выберите папку для скачивания на компьютер, например «Загрузки».
 
 #### 4. Начинайте обучение!
 
