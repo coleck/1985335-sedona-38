@@ -66,25 +66,25 @@
               <img class="advantages-img" src="images/house.jpg" width="800" height="385" alt="Домики на фоне гор.">
             </li>
             <li class="advantages-item">
-              <div class="advantages-item-container">
+              <div class="advantages-item-container advantages-item-gray">
                 <h3 class="advantages-title">Небольшая площадь</h3>
                 <p class="advantages-description">Все достопримечательности находятся очень близко</p>
               </div>
             </li>
-            <li class="advantages-item advantages-item-dark">
-              <div class="advantages-item-container">
+            <li class="advantages-item advantages-item-dark ">
+              <div class="advantages-item-container advantages-item-gray">
                 <h3 class="advantages-title">Красивая дорога</h3>
                 <p class="advantages-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </div>
             </li>
             <li class="advantages-item">
-              <div class="advantages-item-container">
+              <div class="advantages-item-container advantages-item-gray">
                 <h3 class="advantages-title">Мало туристов</h3>
                 <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
               </div>
             </li>
             <li class="advantages-item advantages-item-wide advantages-item-wide-reverse">
-              <div class="advantages-item-container">
+              <div class="advantages-item-container ">
                 <h3 class="advantages-title">Там есть<br>мост дьявола</h3>
                 <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
@@ -98,7 +98,7 @@
           <p class="infrastructure-lead">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
           <p class="infrastructure-lead-text">Опытный персонал и качественное обслуживание!</p>
           <ul class="infrastructure-list">
-            <li class="infrastructure-item infrastructure-item-home">
+            <li class="infrastructure-item infrastructure-item-home infrastructure-item-gray">
               <img src="images/home.svg" alt="Значок дома" width="75" height="72">
               <h3 class="infrastructure-title">Жильё</h3>
               <p class="infrastructure-description">Рекомендуем пожить в&nbsp;настоящем мотеле,<br>всё как в&nbsp;кино!
@@ -110,7 +110,7 @@
               <p class="infrastructure-description">Всегда заказывайте<br>топовый фирменный бургер,
                 вы&nbsp;не&nbsp;разочаруетесь!</p>
             </li>
-            <li class="infrastructure-item infrastructure-item-souvenir">
+            <li class="infrastructure-item infrastructure-item-souvenir infrastructure-item-gray">
               <img src="images/gift.svg" alt="Значок сувениров" width="75" height="72">
               <h3 class="infrastructure-title">Сувениры</h3>
               <p class="infrastructure-description">Не&nbsp;только китайского, но&nbsp;и&nbsp;настоящего местного
@@ -118,7 +118,7 @@
             </li>
           </ul>
         </section>
-        <section class="search" data-test="search" id="search">
+        <section class="search" id="search">
           <h2 class="search-title">Заинтересовались?</h2>
           <p class="search-description">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения
             гостиниц в Седоне</p>
@@ -126,7 +126,8 @@
         </section>
         <section class="subscribe subscribe-theme-custom" data-test="subscribe">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-          <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+
+          <p class="subscribe-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="subscribe-form-name">
               <label class="visually-hidden" for="user-email">Ваш e-mail</label>
@@ -179,83 +180,6 @@
           </a>
         </div>
       </footer>
-    </div>
-    <div class="modal-container modal-container-close">
-      <div class="modal modal-search">
-        <button class="modal-close-button" type="button">
-          <svg width="13" height="13" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M13 1.2 11.8 0 6.5 5.3 1.2 0 0 1.2l5.3 5.3L0 11.8 1.2 13l5.3-5.3 5.3 5.3 1.2-1.2-5.3-5.3L13 1.2Z" />
-          </svg>
-        </button>
-        <section class="modal-content">
-          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-          <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-            <p class="field-group">
-              <label class="form-label" for="check-in-date">Дата заезда:</label>
-              <input class="form-field calendar-field" type="text" id="check-in-date" name="check-in-date"
-                value="27 апреля 2020" placeholder="Укажите дату">
-              <span class="form-message form-message-error">Мы не можем отправить вас в прошлое.</span>
-            </p>
-            <p class="field-group">
-              <label class="form-label" for="check-out-date">Дата выезда:</label>
-              <input class="form-field calendar-field" type="text" id="check-out-date" name="check-out-date"
-                value="1 сентября 2023" placeholder="Укажите дату">
-              <span class="form-message">На эти даты есть свободные номера. Пока есть.</span>
-            </p>
-            <p class="field-group field-group-half">
-              <label class="form-label" for="adults">Взрослые:</label>
-              <span class="number-control">
-                <button class="number-control-button" type="button">
-                  <span class="visually-hidden">Уменьшить.</span>
-                  <svg width="20" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 9v2h14V9H3Z" />
-                  </svg>
-                </button>
-                <input class="form-field number-field" type="number" id="adults" name="adults" value="2">
-                <button class="number-control-button" type="button">
-                  <span class="visually-hidden">Увеличить.</span>
-                  <svg width="20" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
-                  </svg>
-                </button>
-              </span>
-            </p>
-            <p class="field-group field-group-half">
-              <span class="form-label form-label-icon">
-                <label class="form-label" for="children">Дети:</label>
-                <span class="tooltip">
-                  <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
-                    <svg class="tooltip-icon" width="20" height="20" fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9 4h2v2H9V4Zm2 12H9V7h2v9Z" />
-                    </svg>
-                  </button>
-                  <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с
-                    вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
-                </span>
-              </span>
-              <span class="number-control">
-                <button class="number-control-button" type="button">
-                  <span class="visually-hidden">Уменьшить.</span>
-                  <svg width="20" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 9v2h14V9H3Z" />
-                  </svg>
-                </button>
-                <input class="form-field number-field" type="number" id="children" name="children" value="2">
-                <button class="number-control-button" type="button">
-                  <span class="visually-hidden">Увеличить.</span>
-                  <svg width="20" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
-                  </svg>
-                </button>
-              </span>
-            </p>
-            <button class="button form-button" type="submit">Найти</button>
-          </form>
-        </section>
-      </div>
-    </div>
   </body>
 
 </html>
